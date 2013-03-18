@@ -15,9 +15,9 @@ Here is a sample config:
 # config = dictdot(
 # 	 backend    = 'sqlite'
 # 	,dalstring  = '%s://storage.db'
-# 	,mailserver = 'smtp.3rr0rsp4c3.com:25'
-# 	,mailsender = 'mailer-daemon@3rr0rsp4c3.com'
-# 	,maillogin  = 'mailer-daemon:annih.ilate'
+# 	,mailserver = 'smtp.yoursite.com:25'
+# 	,mailsender = 'mail@yoursite.com'
+# 	,maillogin  = 'mail:password'
 # )
 # # Laaaaaaazyy
 # config.dalstring = config.dalstring % config.backend
